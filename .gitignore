@@ -1,8 +1,4 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
-# dependencies
 node_modules/
-
 # Expo
 .expo/
 dist/
@@ -26,6 +22,12 @@ npm-debug.*
 yarn-debug.*
 yarn-error.*
 
+google-services.json
+eas.json
+app.json
+firebaseConfig.js
+GoogleService-Info.plist
+
 # macOS
 .DS_Store
 *.pem
@@ -36,4 +38,7 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-app-example
+#app-example
+
+
+
